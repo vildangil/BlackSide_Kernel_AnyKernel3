@@ -9,12 +9,12 @@ do.devicecheck=1
 do.cleanup=1
 do.cleanuponabort=0
 do.modules=1
-device.name1=dandelion
-device.name2=angelica
-device.name3=angelican
-device.name4=angelicain
-device.name5=cattail
-device.name6=blossom
+device.name1=rosemary
+device.name2=secret
+device.name3=maltose
+device.name4=
+device.name5=
+device.name6=
 supported.versions=
 '; } # end properties
 
@@ -27,7 +27,7 @@ set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
 } # end attributes
 
 # boot shell variables
-BLOCK=/dev/block/by-name/boot;
+block=/dev/block/by-name/boot;
 IS_SLOT_DEVICE=0;
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
